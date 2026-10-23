@@ -1,0 +1,54 @@
+,Unique Count,Missing Count
+Product Description,0,180519
+Customer Password,1,0
+Product Status,1,0
+Customer Email,1,0
+Late_delivery_risk,2,0
+Customer Country,2,0
+Customer Segment,3,0
+Delivery Status,4,0
+Days for shipment (scheduled),4,0
+Shipping Mode,4,0
+Type,4,0
+Market,5,0
+Order Item Quantity,5,0
+Days for shipping (real),7,0
+Order Status,9,0
+Department Id,11,0
+Department Name,11,0
+Order Item Discount Rate,18,0
+Order Region,23,0
+Customer State,46,0
+Category Name,50,0
+Product Category Id,51,0
+Category Id,51,0
+Order Item Product Price,75,0
+Product Price,75,0
+Product Image,118,0
+Product Card Id,118,0
+Product Name,118,0
+Order Item Cardprod Id,118,0
+Order Item Profit Ratio,162,0
+Order Country,164,0
+Sales,193,0
+Customer City,563,0
+Order Zipcode,609,155679
+Customer Fname,782,0
+Customer Zipcode,995,3
+Order Item Discount,1017,0
+Order State,1089,0
+Customer Lname,1109,8
+Order Item Total,2927,0
+Sales per customer,2927,0
+Order City,3597,0
+Longitude,4487,0
+Customer Street,7458,0
+Latitude,11250,0
+Customer Id,20652,0
+Order Customer Id,20652,0
+Benefit per order,21998,0
+Order Profit Per Order,21998,0
+shipping date (DateOrders),63701,0
+order date (DateOrders),65752,0
+Order Id,65752,0
+Order Item Id,180519,0

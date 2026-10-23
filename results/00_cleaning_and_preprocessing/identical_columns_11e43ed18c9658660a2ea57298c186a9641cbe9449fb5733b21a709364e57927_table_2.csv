@@ -1,0 +1,8 @@
+,Column A,Column B,Identical Rows,Type A,Type B
+0,Benefit per order,Order Profit Per Order,180519,float64,float64
+1,Sales per customer,Order Item Total,180519,float64,float64
+2,Category Id,Product Category Id,180519,int64,int64
+3,Customer Email,Customer Password,180519,str,str
+4,Customer Id,Order Customer Id,180519,int64,int64
+5,Order Item Cardprod Id,Product Card Id,180519,int64,int64
+6,Order Item Product Price,Product Price,180519,float64,float64

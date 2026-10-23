@@ -1,0 +1,3 @@
+,Column A,Column B,Target Column,Relationship,Rows Checked,Coverage (%),Maximum Absolute Error
+0,Order Item Product Price,Order Item Quantity,Sales,[Order Item Product Price] * [Order Item Quantity] = [Sales],180519,100.0,2.289999997628911e-05
+1,Order Item Quantity,Product Price,Sales,[Order Item Quantity] * [Product Price] = [Sales],180519,100.0,2.289999997628911e-05

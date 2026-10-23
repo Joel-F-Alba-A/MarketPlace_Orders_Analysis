@@ -1,0 +1,13 @@
+Metric,Before,After,Difference (After - Before)
+Rows,180519.0,180519.0,0.0
+Columns,53.0,33.0,-20.0
+Missing cells,336209.0,3.0,-336206.0
+Missing cells (%),3.5140711159134765,5.0359846281605215e-05,-3.514020756067195
+Rows with missing values,180519.0,3.0,-180516.0
+Duplicate rows after first,0.0,0.0,0.0
+Duplicate rows (%),0.0,0.0,0.0
+Constant columns (one non-null value),3.0,0.0,-3.0
+All-null columns,1.0,0.0,-1.0
+Blank or whitespace-only text cells,0.0,0.0,0.0
+Infinite numeric values,0.0,0.0,0.0
+Memory (MiB),299.93513679504395,189.7738275527954,-110.16130924224854

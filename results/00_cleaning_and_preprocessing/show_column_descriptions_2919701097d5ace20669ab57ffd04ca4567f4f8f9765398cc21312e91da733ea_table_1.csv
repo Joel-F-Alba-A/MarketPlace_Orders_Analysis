@@ -1,0 +1,34 @@
+,Column,Description
+0,Type,Type of transaction made
+1,Days for shipping (real),Actual shipping days of the purchased product
+2,Days for shipment (scheduled),Days of scheduled delivery of the purchased product
+3,Benefit per order,Earnings per order placed
+4,Sales per customer,Total sales per customer made per customer
+5,Delivery Status,"Delivery status of orders: Advance shipping , Late delivery , Shipping canceled , Shipping on time"
+6,Late_delivery_risk,"Categorical variable that indicates if sending is late (1), it is not late (0)."
+7,Category Name,Description of the product category
+8,Customer City,City where the customer made the purchase
+9,Customer Country,Country where the customer made the purchase
+10,Customer Id,Customer ID
+11,Customer Segment,"Types of Customers: Consumer , Corporate , Home Office"
+12,Customer State,State to which the store where the purchase is registered belongs
+13,Customer Zipcode,Customer Zipcode
+14,Department Name,Department name of store
+15,Latitude,Latitude corresponding to location of store
+16,Longitude,Longitude corresponding to location of store
+17,Market,"Market to where the order is delivered : Africa , Europe , LATAM , Pacific Asia , USCA"
+18,Order City,Destination city of the order
+19,Order Country,Destination country of the order
+20,Order Item Discount,Order item discount value
+21,Order Item Discount Rate,Order item discount percentage
+22,Order Item Profit Ratio,Order Item Profit Ratio
+23,Order Item Quantity,Number of products per order
+24,Sales,Value in sales
+25,Order Region,"Region of the world where the order is delivered :  Southeast Asia ,South Asia ,Oceania ,Eastern Asia, West Asia , West of USA , US Center , West Africa, Central Africa ,North Africa ,Western Europe ,Northern , Caribbean , South America ,East Africa ,Southern Europe , East of USA ,Canada ,Southern Africa , Central Asia ,  Europe , Central America, Eastern Europe , South of  USA"
+26,Order State,State of the region where the order is delivered
+27,Order Status,"Order Status : COMPLETE , PENDING , CLOSED , PENDING_PAYMENT ,CANCELED , PROCESSING ,SUSPECTED_FRAUD ,ON_HOLD ,PAYMENT_REVIEW"
+28,Product Card Id,Product code
+29,Product Name,Product Name
+30,Product Price,Product Price
+31,Shipping Mode,"The following shipping modes are presented : Standard Class , First Class , Second Class , Same Day"
+32,Order Month,The month where the order was placed

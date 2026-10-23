@@ -1,0 +1,55 @@
+Column,Status,Type Before,Missing Count Before,Missing (%) Before,Unique Count Before,Type After,Missing Count After,Missing (%) After,Unique Count After
+Type,Retained,str,0.0,0.0,4.0,str,0.0,0.0,4.0
+Days for shipping (real),Retained,int64,0.0,0.0,7.0,int64,0.0,0.0,7.0
+Days for shipment (scheduled),Retained,int64,0.0,0.0,4.0,int64,0.0,0.0,4.0
+Benefit per order,Retained,float64,0.0,0.0,21998.0,float64,0.0,0.0,21998.0
+Sales per customer,Retained,float64,0.0,0.0,2927.0,float64,0.0,0.0,2927.0
+Delivery Status,Retained,str,0.0,0.0,4.0,str,0.0,0.0,4.0
+Late_delivery_risk,Retained,int64,0.0,0.0,2.0,int64,0.0,0.0,2.0
+Category Id,Removed,int64,0.0,0.0,51.0,,,,
+Category Name,Retained,str,0.0,0.0,50.0,str,0.0,0.0,50.0
+Customer City,Retained,str,0.0,0.0,563.0,str,0.0,0.0,563.0
+Customer Country,Retained,str,0.0,0.0,2.0,str,0.0,0.0,2.0
+Customer Email,Removed,str,0.0,0.0,1.0,,,,
+Customer Fname,Removed,str,0.0,0.0,782.0,,,,
+Customer Id,Retained,int64,0.0,0.0,20652.0,int64,0.0,0.0,20652.0
+Customer Lname,Removed,str,8.0,0.0044316664727812585,1109.0,,,,
+Customer Password,Removed,str,0.0,0.0,1.0,,,,
+Customer Segment,Retained,str,0.0,0.0,3.0,str,0.0,0.0,3.0
+Customer State,Retained,str,0.0,0.0,46.0,str,0.0,0.0,46.0
+Customer Street,Removed,str,0.0,0.0,7458.0,,,,
+Customer Zipcode,Retained,float64,3.0,0.001661874927292972,995.0,float64,3.0,0.001661874927292972,995.0
+Department Id,Removed,int64,0.0,0.0,11.0,,,,
+Department Name,Retained,str,0.0,0.0,11.0,str,0.0,0.0,11.0
+Latitude,Retained,float64,0.0,0.0,11250.0,float64,0.0,0.0,11250.0
+Longitude,Retained,float64,0.0,0.0,4487.0,float64,0.0,0.0,4487.0
+Market,Retained,str,0.0,0.0,5.0,str,0.0,0.0,5.0
+Order City,Retained,str,0.0,0.0,3597.0,str,0.0,0.0,3597.0
+Order Country,Retained,str,0.0,0.0,164.0,str,0.0,0.0,164.0
+Order Customer Id,Removed,int64,0.0,0.0,20652.0,,,,
+order date (DateOrders),Removed,str,0.0,0.0,65752.0,,,,
+Order Id,Removed,int64,0.0,0.0,65752.0,,,,
+Order Item Cardprod Id,Removed,int64,0.0,0.0,118.0,,,,
+Order Item Discount,Retained,float64,0.0,0.0,1017.0,float64,0.0,0.0,1017.0
+Order Item Discount Rate,Retained,float64,0.0,0.0,18.0,float64,0.0,0.0,18.0
+Order Item Id,Removed,int64,0.0,0.0,180519.0,,,,
+Order Item Product Price,Removed,float64,0.0,0.0,75.0,,,,
+Order Item Profit Ratio,Retained,float64,0.0,0.0,162.0,float64,0.0,0.0,162.0
+Order Item Quantity,Retained,int64,0.0,0.0,5.0,int64,0.0,0.0,5.0
+Sales,Retained,float64,0.0,0.0,193.0,float64,0.0,0.0,193.0
+Order Item Total,Removed,float64,0.0,0.0,2927.0,,,,
+Order Profit Per Order,Removed,float64,0.0,0.0,21998.0,,,,
+Order Region,Retained,str,0.0,0.0,23.0,str,0.0,0.0,23.0
+Order State,Retained,str,0.0,0.0,1089.0,str,0.0,0.0,1089.0
+Order Status,Retained,str,0.0,0.0,9.0,str,0.0,0.0,9.0
+Order Zipcode,Removed,float64,155679.0,86.23967560201419,609.0,,,,
+Product Card Id,Retained,int64,0.0,0.0,118.0,int64,0.0,0.0,118.0
+Product Category Id,Removed,int64,0.0,0.0,51.0,,,,
+Product Description,Removed,float64,180519.0,100.0,0.0,,,,
+Product Image,Removed,str,0.0,0.0,118.0,,,,
+Product Name,Retained,str,0.0,0.0,118.0,str,0.0,0.0,118.0
+Product Price,Retained,float64,0.0,0.0,75.0,float64,0.0,0.0,75.0
+Product Status,Removed,int64,0.0,0.0,1.0,,,,
+shipping date (DateOrders),Removed,str,0.0,0.0,63701.0,,,,
+Shipping Mode,Retained,str,0.0,0.0,4.0,str,0.0,0.0,4.0
+Order Month,Added,,,,,int32,0.0,0.0,12.0

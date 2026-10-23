@@ -1,0 +1,9 @@
+# Initial dependencies; pin versions once the environment is established.
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+jupyterlab
+ipykernel

@@ -1,0 +1,25 @@
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+/data/**/*
+!/data/**/
+!/data/**/.gitkeep
+/models/**/*
+!/models/**/
+!/models/**/.gitkeep
+/*.csv
+/*.zip
+/archive*/
+
+# Binary experiment artifacts
+/results/**/*.pkl
+/results/**/*.joblib
