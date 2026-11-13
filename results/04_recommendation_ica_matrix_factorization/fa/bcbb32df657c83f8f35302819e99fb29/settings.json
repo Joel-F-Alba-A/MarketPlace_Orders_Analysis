@@ -1,0 +1,22 @@
+{
+  "cache_version": 1,
+  "random_state": 42,
+  "n_bootstraps": 10,
+  "n_clusters": 3,
+  "max_iter": 3000,
+  "tol": 0.001,
+  "rotation": "varimax",
+  "sklearn_version": "1.9.0",
+  "features": [
+    "Days for shipping (real)",
+    "Days for shipment (scheduled)",
+    "Benefit per order",
+    "Sales per customer",
+    "Order Item Discount",
+    "Order Item Discount Rate",
+    "Order Item Profit Ratio",
+    "Order Item Quantity",
+    "Sales",
+    "Product Price"
+  ]
+}

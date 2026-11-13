@@ -1,0 +1,2 @@
+k,Train MSE,Validation MSE,Train Relative Frobenius,Validation Relative Frobenius,Train Reconstructed Energy,Validation Reconstructed Energy,Stability Mean,Stability Std,Mean Concentration,Silhouette
+2,0.5250748427641023,0.52598199266146,0.7246204818828488,0.7178349502732488,0.47492515723586803,0.48471298416620234,0.9999670326766642,2.3225895875459282e-05,0.3907349083847311,0.5184100078978426

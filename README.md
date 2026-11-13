@@ -114,3 +114,29 @@ EDA methods, description lookup, and quality comparison automatically save JSON 
 Use `force_refresh=True` to recompute a report, `use_cache=False` to disable cache reads and writes, or `cache_dir=...` to change its location. `DatasetEDA` accepts these defaults in its constructor; they can also be overridden per method. Create a new EDA instance when replacing its dataframe. Deleting report files is safe: they will be generated again on the next call.
 
 The quality summary reports structural indicators rather than a single quality score. Differences are After minus Before; percentages use each dataset's own denominator, and removing columns can itself change duplicate counts. Empty datasets have undefined percentages displayed as missing values.
+
+
+### Notebook 04 classes
+
+Notebook 04 keeps model choices, interpretation, displays, and short plotting calls.
+Reusable implementations are in:
+
+- `src/models/latent_factors.py`: `FactorData`, `FASearch`, `ICASearch`,
+  `FactorAnalysisResult`, and `FactorComparison`.
+- `src/models/recommendation.py`: `RecommendationData`, `RecommendationSearch`,
+  and `SVDRecommender`.
+- `src/models/latent_factor_plots.py`: search plots, coefficient heatmaps,
+  recommendation validation curves, and product-popularity plots.
+
+FA and ICA searches run across component counts in parallel and checkpoint each
+completed count under `results/04_recommendation_ica_matrix_factorization/`.
+`force_retrain=False` resumes matching data/settings; `True` retrains the requested
+counts. An unfinished component count is restarted. Existing matching FA
+checkpoints remain supported. Selected analyses reuse the saved fitted models.
+
+The PCA comparison reads loadings and reconstruction metrics exported by notebook
+03, which must be run first. Recommendation search and final evaluation tables
+are also exported to the notebook 04 results folder; recommendation fitting is
+not cached. Section 7.4 fits the final recommender and inspects latent factors;
+section 7.5 evaluates that fitted model and the popularity baseline. Run notebook
+cells in order after restarting the kernel; old execution outputs were cleared.

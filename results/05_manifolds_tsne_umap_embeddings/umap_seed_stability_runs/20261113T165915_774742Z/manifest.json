@@ -1,0 +1,58 @@
+{
+  "umap_version": "0.6.0",
+  "sample_size": 30000,
+  "features": [
+    "Days for shipping (real)",
+    "Days for shipment (scheduled)",
+    "Benefit per order",
+    "Sales per customer",
+    "Order Item Discount",
+    "Order Item Discount Rate",
+    "Order Item Profit Ratio",
+    "Order Item Quantity",
+    "Sales",
+    "Product Price"
+  ],
+  "input_sha256": "227ca184704e3757dace2fd7f53f56a04e63a328dafe8995e87b447dd979ef38",
+  "seeds": [
+    0,
+    21,
+    42,
+    123,
+    7,
+    13,
+    57,
+    99,
+    202,
+    314
+  ],
+  "evaluation_ks": [
+    2,
+    5,
+    10,
+    30,
+    50
+  ],
+  "parameters": {
+    "n_components": 2,
+    "n_neighbors": 30,
+    "min_dist": 0.1,
+    "metric": "euclidean",
+    "init": "spectral",
+    "n_epochs": 200,
+    "low_memory": true,
+    "n_jobs": 1
+  },
+  "completed_seeds": [
+    0,
+    21,
+    42,
+    123,
+    7,
+    13,
+    57,
+    99,
+    202,
+    314
+  ]
+}
