@@ -1,0 +1,124 @@
+Loading and standardizing original data...
+Loaded 30,000 saved sample rows with 10 features.
+Evaluating 30,000 observations per perplexity.
+Progress file: /home/joel-felipe-alba-acosta/Documents/UNIVERSITY/2026-2/APRENDIZAJE_NO_SUPERVISADO/Corte_3/PROYECTO_FINAL/results/05_manifolds_tsne_umap_embeddings/tsne_preservation_metrics_eval30000_ks2-5-10-30-50_seed42_9e0775b6d4bf.csv
+Completed metrics resume; an interrupted metric starts again.
+
+[1/4] Evaluating perplexity 5
+  Saved Global Spearman: 0.015672
+    Finding 50 nearest neighbors for 30,000 rows...
+    Nearest neighbors complete.
+    Finding 50 nearest neighbors for 30,000 rows...
+    Nearest neighbors complete.
+  Saved Neighborhood Overlap@2: 0.784217
+  Saved Neighborhood Overlap@5: 0.751587
+  Saved Neighborhood Overlap@10: 0.694633
+  Saved Neighborhood Overlap@30: 0.575913
+  Saved Neighborhood Overlap@50: 0.503311
+    Trustworthiness k=[2, 5, 10, 30, 50]: 4,587/30,000 (15.3%) | elapsed 0.2 min | ETA 0.9 min
+    Trustworthiness k=[2, 5, 10, 30, 50]: 8,618/30,000 (28.7%) | elapsed 0.3 min | ETA 0.8 min
+    Trustworthiness k=[2, 5, 10, 30, 50]: 13,622/30,000 (45.4%) | elapsed 0.5 min | ETA 0.6 min
+    Trustworthiness k=[2, 5, 10, 30, 50]: 19,182/30,000 (63.9%) | elapsed 0.7 min | ETA 0.4 min
+    Trustworthiness k=[2, 5, 10, 30, 50]: 24,603/30,000 (82.0%) | elapsed 0.8 min | ETA 0.2 min
+    Trustworthiness k=[2, 5, 10, 30, 50]: 29,746/30,000 (99.2%) | elapsed 1.0 min | ETA 0.0 min
+    Trustworthiness k=[2, 5, 10, 30, 50]: 30,000/30,000 (100.0%) | elapsed 1.0 min | ETA 0.0 min
+  Saved Trustworthiness@2: 0.999929
+  Saved Trustworthiness@5: 0.999820
+  Saved Trustworthiness@10: 0.998543
+  Saved Trustworthiness@30: 0.960500
+  Saved Trustworthiness@50: 0.920025
+ Perplexity  Trustworthiness@2  Neighborhood Overlap@2  Trustworthiness@5  Neighborhood Overlap@5  Trustworthiness@10  Neighborhood Overlap@10  Trustworthiness@30  Neighborhood Overlap@30  Trustworthiness@50  Neighborhood Overlap@50  Global Spearman
+          5             0.9999                  0.7842             0.9998                  0.7516              0.9985                   0.6946              0.9605                   0.5759                0.92                   0.5033           0.0157
+         15                NaN                     NaN                NaN                     NaN                 NaN                      NaN                 NaN                      NaN                 NaN                      NaN              NaN
+         30                NaN                     NaN                NaN                     NaN                 NaN                      NaN                 NaN                      NaN                 NaN                      NaN              NaN
+         50                NaN                     NaN                NaN                     NaN                 NaN                      NaN                 NaN                      NaN                 NaN                      NaN              NaN
+
+[2/4] Evaluating perplexity 15
+  Saved Global Spearman: 0.043774
+    Finding 50 nearest neighbors for 30,000 rows...
+    Nearest neighbors complete.
+  Saved Neighborhood Overlap@2: 0.753817
+  Saved Neighborhood Overlap@5: 0.757140
+  Saved Neighborhood Overlap@10: 0.735467
+  Saved Neighborhood Overlap@30: 0.658486
+  Saved Neighborhood Overlap@50: 0.613206
+    Trustworthiness k=[2, 5, 10, 30, 50]: 3,892/30,000 (13.0%) | elapsed 0.2 min | ETA 1.1 min
+    Trustworthiness k=[2, 5, 10, 30, 50]: 8,757/30,000 (29.2%) | elapsed 0.3 min | ETA 0.8 min
+    Trustworthiness k=[2, 5, 10, 30, 50]: 14,317/30,000 (47.7%) | elapsed 0.5 min | ETA 0.6 min
+    Trustworthiness k=[2, 5, 10, 30, 50]: 20,016/30,000 (66.7%) | elapsed 0.7 min | ETA 0.3 min
+    Trustworthiness k=[2, 5, 10, 30, 50]: 25,159/30,000 (83.9%) | elapsed 0.8 min | ETA 0.2 min
+    Trustworthiness k=[2, 5, 10, 30, 50]: 29,885/30,000 (99.6%) | elapsed 1.0 min | ETA 0.0 min
+    Trustworthiness k=[2, 5, 10, 30, 50]: 30,000/30,000 (100.0%) | elapsed 1.0 min | ETA 0.0 min
+  Saved Trustworthiness@2: 0.999942
+  Saved Trustworthiness@5: 0.999869
+  Saved Trustworthiness@10: 0.999685
+  Saved Trustworthiness@30: 0.998287
+  Saved Trustworthiness@50: 0.995315
+ Perplexity  Trustworthiness@2  Neighborhood Overlap@2  Trustworthiness@5  Neighborhood Overlap@5  Trustworthiness@10  Neighborhood Overlap@10  Trustworthiness@30  Neighborhood Overlap@30  Trustworthiness@50  Neighborhood Overlap@50  Global Spearman
+          5             0.9999                  0.7842             0.9998                  0.7516              0.9985                   0.6946              0.9605                   0.5759              0.9200                   0.5033           0.0157
+         15             0.9999                  0.7538             0.9999                  0.7571              0.9997                   0.7355              0.9983                   0.6585              0.9953                   0.6132           0.0438
+         30                NaN                     NaN                NaN                     NaN                 NaN                      NaN                 NaN                      NaN                 NaN                      NaN              NaN
+         50                NaN                     NaN                NaN                     NaN                 NaN                      NaN                 NaN                      NaN                 NaN                      NaN              NaN
+
+[3/4] Evaluating perplexity 30
+  Saved Global Spearman: 0.126926
+    Finding 50 nearest neighbors for 30,000 rows...
+    Nearest neighbors complete.
+  Saved Neighborhood Overlap@2: 0.729217
+  Saved Neighborhood Overlap@5: 0.743107
+  Saved Neighborhood Overlap@10: 0.740170
+  Saved Neighborhood Overlap@30: 0.682676
+  Saved Neighborhood Overlap@50: 0.642162
+    Trustworthiness k=[2, 5, 10, 30, 50]: 5,421/30,000 (18.1%) | elapsed 0.2 min | ETA 0.8 min
+    Trustworthiness k=[2, 5, 10, 30, 50]: 11,259/30,000 (37.5%) | elapsed 0.3 min | ETA 0.6 min
+    Trustworthiness k=[2, 5, 10, 30, 50]: 16,402/30,000 (54.7%) | elapsed 0.5 min | ETA 0.4 min
+    Trustworthiness k=[2, 5, 10, 30, 50]: 21,823/30,000 (72.7%) | elapsed 0.7 min | ETA 0.3 min
+    Trustworthiness k=[2, 5, 10, 30, 50]: 27,522/30,000 (91.7%) | elapsed 0.8 min | ETA 0.1 min
+    Trustworthiness k=[2, 5, 10, 30, 50]: 30,000/30,000 (100.0%) | elapsed 0.9 min | ETA 0.0 min
+  Saved Trustworthiness@2: 0.999915
+  Saved Trustworthiness@5: 0.999855
+  Saved Trustworthiness@10: 0.999722
+  Saved Trustworthiness@30: 0.998895
+  Saved Trustworthiness@50: 0.997459
+ Perplexity  Trustworthiness@2  Neighborhood Overlap@2  Trustworthiness@5  Neighborhood Overlap@5  Trustworthiness@10  Neighborhood Overlap@10  Trustworthiness@30  Neighborhood Overlap@30  Trustworthiness@50  Neighborhood Overlap@50  Global Spearman
+          5             0.9999                  0.7842             0.9998                  0.7516              0.9985                   0.6946              0.9605                   0.5759              0.9200                   0.5033           0.0157
+         15             0.9999                  0.7538             0.9999                  0.7571              0.9997                   0.7355              0.9983                   0.6585              0.9953                   0.6132           0.0438
+         30             0.9999                  0.7292             0.9999                  0.7431              0.9997                   0.7402              0.9989                   0.6827              0.9975                   0.6422           0.1269
+         50                NaN                     NaN                NaN                     NaN                 NaN                      NaN                 NaN                      NaN                 NaN                      NaN              NaN
+
+[4/4] Evaluating perplexity 50
+  Saved Global Spearman: 0.344664
+    Finding 50 nearest neighbors for 30,000 rows...
+    Nearest neighbors complete.
+  Saved Neighborhood Overlap@2: 0.705850
+  Saved Neighborhood Overlap@5: 0.722053
+  Saved Neighborhood Overlap@10: 0.732587
+  Saved Neighborhood Overlap@30: 0.694344
+  Saved Neighborhood Overlap@50: 0.656884
+    Trustworthiness k=[2, 5, 10, 30, 50]: 5,699/30,000 (19.0%) | elapsed 0.2 min | ETA 0.7 min
+    Trustworthiness k=[2, 5, 10, 30, 50]: 11,120/30,000 (37.1%) | elapsed 0.3 min | ETA 0.6 min
+    Trustworthiness k=[2, 5, 10, 30, 50]: 16,263/30,000 (54.2%) | elapsed 0.5 min | ETA 0.4 min
+    Trustworthiness k=[2, 5, 10, 30, 50]: 21,545/30,000 (71.8%) | elapsed 0.7 min | ETA 0.3 min
+    Trustworthiness k=[2, 5, 10, 30, 50]: 30,000/30,000 (100.0%) | elapsed 0.8 min | ETA 0.0 min
+  Saved Trustworthiness@2: 0.999879
+  Saved Trustworthiness@5: 0.999796
+  Saved Trustworthiness@10: 0.999682
+  Saved Trustworthiness@30: 0.998771
+  Saved Trustworthiness@50: 0.997652
+ Perplexity  Trustworthiness@2  Neighborhood Overlap@2  Trustworthiness@5  Neighborhood Overlap@5  Trustworthiness@10  Neighborhood Overlap@10  Trustworthiness@30  Neighborhood Overlap@30  Trustworthiness@50  Neighborhood Overlap@50  Global Spearman
+          5             0.9999                  0.7842             0.9998                  0.7516              0.9985                   0.6946              0.9605                   0.5759              0.9200                   0.5033           0.0157
+         15             0.9999                  0.7538             0.9999                  0.7571              0.9997                   0.7355              0.9983                   0.6585              0.9953                   0.6132           0.0438
+         30             0.9999                  0.7292             0.9999                  0.7431              0.9997                   0.7402              0.9989                   0.6827              0.9975                   0.6422           0.1269
+         50             0.9999                  0.7058             0.9998                  0.7221              0.9997                   0.7326              0.9988                   0.6943              0.9977                   0.6569           0.3447
+
+FINAL RESULTS
+ Perplexity  Trustworthiness@2  Neighborhood Overlap@2  Trustworthiness@5  Neighborhood Overlap@5  Trustworthiness@10  Neighborhood Overlap@10  Trustworthiness@30  Neighborhood Overlap@30  Trustworthiness@50  Neighborhood Overlap@50  Global Spearman
+          5             0.9999                  0.7842             0.9998                  0.7516              0.9985                   0.6946              0.9605                   0.5759              0.9200                   0.5033           0.0157
+         15             0.9999                  0.7538             0.9999                  0.7571              0.9997                   0.7355              0.9983                   0.6585              0.9953                   0.6132           0.0438
+         30             0.9999                  0.7292             0.9999                  0.7431              0.9997                   0.7402              0.9989                   0.6827              0.9975                   0.6422           0.1269
+         50             0.9999                  0.7058             0.9998                  0.7221              0.9997                   0.7326              0.9988                   0.6943              0.9977                   0.6569           0.3447
+
+Metrics saved to: /home/joel-felipe-alba-acosta/Documents/UNIVERSITY/2026-2/APRENDIZAJE_NO_SUPERVISADO/Corte_3/PROYECTO_FINAL/results/05_manifolds_tsne_umap_embeddings/tsne_preservation_metrics_eval30000_ks2-5-10-30-50_seed42_9e0775b6d4bf.csv
+Plot saved: /home/joel-felipe-alba-acosta/Documents/UNIVERSITY/2026-2/APRENDIZAJE_NO_SUPERVISADO/Corte_3/PROYECTO_FINAL/results/05_manifolds_tsne_umap_embeddings/tsne_preservation_metrics_eval30000_ks2-5-10-30-50_seed42_9e0775b6d4bf.png
+Plot saved: /home/joel-felipe-alba-acosta/Documents/UNIVERSITY/2026-2/APRENDIZAJE_NO_SUPERVISADO/Corte_3/PROYECTO_FINAL/results/05_manifolds_tsne_umap_embeddings/tsne_preservation_metrics_eval30000_ks2-5-10-30-50_seed42_9e0775b6d4bf.pdf
+DONE: all metrics and plots saved.
