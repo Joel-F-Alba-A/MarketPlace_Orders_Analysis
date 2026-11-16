@@ -1,0 +1,2 @@
+k,Train MSE,Train Relative Frobenius,Train Reconstructed Energy,Validation MSE,Validation Relative Frobenius,Validation Reconstructed Energy,Stability Mean,Stability Std,Mean Concentration,Silhouette,Mean Absolute Kurtosis,Converged,Iterations
+3,0.3513821748150886,0.592774978229607,0.6486178251848889,0.350162399821298,0.5856982368122053,0.6569575753950738,0.9990950087917762,0.0014655369326737721,0.4015955087384934,0.3719266995214877,15.469886621608298,True,7

@@ -1,0 +1,28 @@
+{
+  "source_sha256": {
+    "notebooks/02_gmm_latent_variables_em.ipynb": "e7b11101d2026a332f90aec503fff42548990e62bda0c914a1a2276d84645517",
+    "results/04_recommendation_ica_matrix_factorization/fa_ica_pca_reconstruction_metrics.csv": "d32807ec27c14b5fb3ffa0aa00a05e14f88ea9de0688453728deb701cf4e42a3",
+    "results/03_svd_pca_probabilistic_pca_lsa/ppca_k5_reconstruction_metrics.csv": "099a947d29bf15dd2801f002f7d5fef4de7290fc73f80484049974172b4002d4",
+    "results/03_svd_pca_probabilistic_pca_lsa/pca_evaluation_by_k.csv": "024334b322f2969f8ecfe2e5751f01ec61d0fc07af6ab3ccf54a4f8b02cbbb83",
+    "results/05_manifolds_tsne_umap_embeddings/tsne_preservation_metrics_eval30000_ks2-5-10-30-50_seed42_9e0775b6d4bf.csv": "84f5752931df8ce4243b59ef552defd4162a6aa0fa1c3af336b7cd3ee850a27b",
+    "results/05_manifolds_tsne_umap_embeddings/umap_preservation_metrics_eval30000_ks2-5-10-30-50_seed42_55d4f50e322d.csv": "2fec7b611300dd025e41d8523076e0565bf9f3ed5572cd32ab961475e97c1f19",
+    "results/05_manifolds_tsne_umap_embeddings/tsne_seed_stability/summary.csv": "ee19accf87b2cc505b70ab0094f97faf849686d21e69b1cb38532ecce9d0919b",
+    "results/05_manifolds_tsne_umap_embeddings/umap_stability_latest_run.txt": "6e399b693eba1d5d737ae64ff699c1e2fa4296d07ca35c022e26066ccbf6c415",
+    "results/05_manifolds_tsne_umap_embeddings/umap_seed_stability_runs/20261113T165915_774742Z/summary.csv": "1de83a846f19bba489b096d71e3ecc2f05a0f5a02208708c5f61d99bde86ce85",
+    "results/06_anomaly_detection/pca_anomaly_quantile_comparison.csv": "6490591c83ba115afc93a5485a888511ba2697d9506a0cc1e208a93612d1fa86",
+    "results/06_anomaly_detection/ica_anomaly_quantile_comparison.csv": "fe2389ec03262398bba1697674cbba50d777c746e0633569aa7d86aad2cf1ea7",
+    "results/06_anomaly_detection/mahalanobis_quantile_comparison.csv": "d1697638f7969c58ab6069ba93facfa83035c768a95bd6e69281457efc17a774",
+    "results/06_anomaly_detection/lof_k20_detection_summary.csv": "86c4b0ad633171fdfe0acb10739381026267f907439bffb1bfe56c9fb63b9c8c",
+    "results/06_anomaly_detection/if_400trees_1024samples_detection_summary.csv": "53f25bf4dad2fdb33da9ca36415cf1432c095227f93be1a701a19cc8885ea21e",
+    "results/07_autoencoder_vae/vae_validation_scores.csv": "b651a61e7851376cbe1e6b43a2969ce94c30559cf2c9945b2f5026ee7cb8ebb3",
+    "results/06_anomaly_detection/if_seed_pairwise_stability.csv": "c89590837a126f77b4ead7ce10a580958c668837a619dab8c40f5574be776e33",
+    "results/07_autoencoder_vae/vae_seed_pairwise_stability.csv": "35cb76e7f918f656fd9f7c4fe7acd4a052b690a423a4f2a3c4f79365827080fc"
+  },
+  "notes": "Read-only saved results; no fitting. GMM characterization from executed notebook outputs. Figures compare matching tasks, not absolute anomaly scores. AE omitted: no completed grid result.",
+  "figures": [
+    "01_perfiles_gmm.png",
+    "02_representaciones_latentes.png",
+    "03_embeddings.png",
+    "04_anomalias.png"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "architecture": "Linear-ReLU-Linear / Linear-ReLU-Linear-v1",
+  "ae_config": {
+    "latent_dim": 5,
+    "hidden_dim": 64,
+    "learning_rate": 0.001,
+    "batch_size": 128
+  },
+  "seeds": [
+    0,
+    21,
+    42,
+    123,
+    7,
+    13,
+    57,
+    99,
+    202,
+    314
+  ],
+  "max_epochs": 100,
+  "patience": 15,
+  "min_delta": 1e-06,
+  "split_seed": 42,
+  "evaluation_seed": 42,
+  "evaluation_size": 10000,
+  "dataset_sha256": "1ffcca0b7b691ab11a81405fdf697c83d53ca8c5dfc812e3520858568b0fc828",
+  "features": [
+    "Days for shipping (real)",
+    "Days for shipment (scheduled)",
+    "Benefit per order",
+    "Sales per customer",
+    "Order Item Discount",
+    "Order Item Discount Rate",
+    "Order Item Profit Ratio",
+    "Order Item Quantity",
+    "Sales",
+    "Product Price"
+  ],
+  "torch_version": "2.14.1+cu130",
+  "numpy_version": "2.4.6",
+  "sklearn_version": "1.6.1",
+  "device_names": [
+    "Tesla T4"
+  ],
+  "threads_per_worker": 8,
+  "fp32": true,
+  "deterministic": true,
+  "run_tag": "default"
+}

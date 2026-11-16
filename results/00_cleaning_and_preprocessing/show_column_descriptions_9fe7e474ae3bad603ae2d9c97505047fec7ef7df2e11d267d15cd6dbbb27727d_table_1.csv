@@ -1,0 +1,54 @@
+,Column,Description
+0,Type,Type of transaction made
+1,Days for shipping (real),Actual shipping days of the purchased product
+2,Days for shipment (scheduled),Days of scheduled delivery of the purchased product
+3,Benefit per order,Earnings per order placed
+4,Sales per customer,Total sales per customer made per customer
+5,Delivery Status,"Delivery status of orders: Advance shipping , Late delivery , Shipping canceled , Shipping on time"
+6,Late_delivery_risk,"Categorical variable that indicates if sending is late (1), it is not late (0)."
+7,Category Id,Product category code
+8,Category Name,Description of the product category
+9,Customer City,City where the customer made the purchase
+10,Customer Country,Country where the customer made the purchase
+11,Customer Email,Customer's email
+12,Customer Fname,Customer name
+13,Customer Id,Customer ID
+14,Customer Lname,Customer lastname
+15,Customer Password,Masked customer key
+16,Customer Segment,"Types of Customers: Consumer , Corporate , Home Office"
+17,Customer State,State to which the store where the purchase is registered belongs
+18,Customer Street,Street to which the store where the purchase is registered belongs
+19,Customer Zipcode,Customer Zipcode
+20,Department Id,Department code of store
+21,Department Name,Department name of store
+22,Latitude,Latitude corresponding to location of store
+23,Longitude,Longitude corresponding to location of store
+24,Market,"Market to where the order is delivered : Africa , Europe , LATAM , Pacific Asia , USCA"
+25,Order City,Destination city of the order
+26,Order Country,Destination country of the order
+27,Order Customer Id,Customer order code
+28,order date (DateOrders),Date on which the order is made
+29,Order Id,Order code
+30,Order Item Cardprod Id,Product code generated through the RFID reader
+31,Order Item Discount,Order item discount value
+32,Order Item Discount Rate,Order item discount percentage
+33,Order Item Id,Order item code
+34,Order Item Product Price,Price of products without discount
+35,Order Item Profit Ratio,Order Item Profit Ratio
+36,Order Item Quantity,Number of products per order
+37,Sales,Value in sales
+38,Order Item Total,Total amount per order
+39,Order Profit Per Order,Order Profit Per Order
+40,Order Region,"Region of the world where the order is delivered :  Southeast Asia ,South Asia ,Oceania ,Eastern Asia, West Asia , West of USA , US Center , West Africa, Central Africa ,North Africa ,Western Europe ,Northern , Caribbean , South America ,East Africa ,Southern Europe , East of USA ,Canada ,Southern Africa , Central Asia ,  Europe , Central America, Eastern Europe , South of  USA"
+41,Order State,State of the region where the order is delivered
+42,Order Status,"Order Status : COMPLETE , PENDING , CLOSED , PENDING_PAYMENT ,CANCELED , PROCESSING ,SUSPECTED_FRAUD ,ON_HOLD ,PAYMENT_REVIEW"
+43,Order Zipcode,Order destination postal code (project clarification; omitted from the supplied dictionary).
+44,Product Card Id,Product code
+45,Product Category Id,Product category code
+46,Product Description,Product Description
+47,Product Image,Link of visit and purchase of the product
+48,Product Name,Product Name
+49,Product Price,Product Price
+50,Product Status,"Status of the product stock :If it is 1 not available , 0 the product is available"
+51,shipping date (DateOrders),Exact date and time of shipment
+52,Shipping Mode,"The following shipping modes are presented : Standard Class , First Class , Second Class , Same Day"

@@ -23,3 +23,21 @@ Thumbs.db
 # Binary experiment artifacts
 /results/**/*.pkl
 /results/**/*.joblib
+
+# Local inspection output and LaTeX build intermediates
+/tmp/
+/output/**/*.aux
+/output/**/*.log
+/output/**/*.out
+/output/**/*.toc
+/output/**/*.synctex.gz
+/results/pipeline_runs/
+/results/**/*_executed.ipynb
+/results/main/
+
+# Locally trained model weights and numeric checkpoint arrays
+/results/**/*.pt
+/results/**/*.npz
+
+# Rebuildable image export bundles
+/output/**/*.zip

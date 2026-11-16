@@ -1,0 +1,8 @@
+Method,alpha_005,alpha_001
+PCA T2,1751,339
+PCA/ICA SPE,1790,362
+ICA NLL,1791,348
+Mahalanobis,1739,349
+LOF,1891,350
+Isolation Forest,1765,338
+VAE,1761,329
